@@ -32,7 +32,7 @@ public class Card implements Comparable<Card> {
     public void setRank(CardRankEnum rank) {
         this.rank = rank;
     }
-
+  
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
